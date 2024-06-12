@@ -20,8 +20,8 @@ env:
   BUCKET_TF_STATE: ${{ secret.BUCKET_TF_STATE }}
   AWS_REGION: us-east-1
   EKS_CLUSTER: vprofile-eks
-
-  jobs:
+# job is fixed here
+jobs:
     terraform:
       name: "apply terraform code changes"
       runs-on: ubunutu-latest
