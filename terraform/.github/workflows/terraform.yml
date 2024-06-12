@@ -7,9 +7,9 @@ on:
     paths:
       - terraform/**
   pull_request:
-      branches:
+    branches:
         - main
-      paths:
+    paths:
         - terraform/**
 env:
   # credentials for deployment to AWS
